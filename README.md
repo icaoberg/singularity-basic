@@ -6,4 +6,6 @@
 [![GitHub stars](https://img.shields.io/github/stars/icaoberg/singularity-basic.svg)](https://github.com/icaoberg/singularity-basic/stargazers)
 [![GitHub license](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://www.gnu.org/licenses/quick-guide-gplv3.en.html)
 
+![Singularity logo](http://singularity.lbl.gov/images/logo/logo.svg)
 
+These is a collection of Singularity definitions used to build images that can be used in the [Computational Biology Department](http://www.cbd.cmu.edu)'s [HPC](https://en.wikipedia.org/wiki/Supercomputer) [cluster](https://en.wikipedia.org/wiki/Computer_cluster).
