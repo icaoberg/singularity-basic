@@ -5,13 +5,16 @@ branches:
   only:
     - master
 
+env:
+  - VERSION=2.6.0
+
 before_install:
-- git clone https://github.com/singularityware/singularity.git
-- cd singularity
-- ./autogen.sh
+- wget https://github.com/singularityware/singularity/releases/download/$VERSION/singularity-$VERSION.tar.gz
+- tar xvf singularity-$VERSION.tar.gz
+- cd singularity-$VERSION
 - ./configure --prefix=/usr/local
 - make
-- make install
+- sudo make install
 
 script:
   - bash ./script.sh
