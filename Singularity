@@ -16,7 +16,6 @@ IncludeCmd: yes
       tar -zxvf fswatch-1.9.3.tar.gz && \
       cd fswatch-1.9.3/ && \
       ./configure && make && make install && ldconfig
-    sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
     # Make folders for CBD HPC cluster
     if [ ! -d /images ]; then mkdir /images; fi
