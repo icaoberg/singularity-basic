@@ -17,6 +17,7 @@ before_install:
 - ./configure --prefix=/usr/local
 - make
 - sudo make install
+- cd ..
 
 script:
   - bash ./script.sh
