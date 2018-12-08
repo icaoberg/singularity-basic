@@ -1,5 +1,6 @@
 # singularity-basic
 ![Release](https://img.shields.io/badge/release-prealpha-red.svg)
+[![Build Status](https://travis-ci.org/icaoberg/singularity-basic.svg?branch=master)](https://travis-ci.org/icaoberg/singularity-basic)
 [![GitHub issues](https://img.shields.io/github/issues/icaoberg/singularity-basic.svg)](https://github.com/icaoberg/singularity-basic/issues)
 [![GitHub forks](https://img.shields.io/github/forks/icaoberg/singularity-basic.svg)](https://github.com/icaoberg/singularity-basic/network)
 [![GitHub stars](https://img.shields.io/github/stars/icaoberg/singularity-basic.svg)](https://github.com/icaoberg/singularity-basic/stargazers)
@@ -13,3 +14,16 @@ The image has been tested on
 ➜  ✗ singularity --version
 2.6.0-dist
 ```
+
+## Installed packages
+These are the packages 
+
+* cowsay
+* Figlet
+* htop
+* toilet
+* tmux
+* vim
+* zsh
+
+
