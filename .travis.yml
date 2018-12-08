@@ -24,5 +24,3 @@ script:
   - bash ./script.sh
   - du -h singularity-ubuntu16.04.simg
   - singularity exec singularity-ubuntu16.04.simg echo SUCCESS
-  - singularity exec singularity-ubuntu16.04.simg echo SUCCESS | toilet -f term -F border --gay
-  - singularity exec singularity-ubuntu16.04.simg cowsay SUCCESS  
