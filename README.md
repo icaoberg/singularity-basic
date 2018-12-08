@@ -14,3 +14,16 @@ The image has been tested on
 ➜  ✗ singularity --version
 2.6.0-dist
 ```
+
+## Installed packages
+These are the packages 
+
+* cowsay
+* Figlet
+* htop
+* toilet
+* tmux
+* vim
+* zsh
+
+
