@@ -20,8 +20,12 @@ These are the packages
 
 * cowsay
 * Figlet
+* fswatch
+* git
+* graphviz
 * htop
 * libtiff5
+* pandoc
 * toilet
 * tmux
 * vim
