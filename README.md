@@ -34,7 +34,12 @@ These are the packages
 
 ## Pull image from Singularity Hub
 
-[![asciicast](https://asciinema.org/a/224102.svg)](https://asciinema.org/a/224102)
+```
+singularity pull shub://icaoberg/singularity-basic
+singularity pull --name customname.img shub://icaoberg/singularity-basic
+singularity pull --commit shub://icaoberg/singularity-basic
+singularity pull --hash shub://icaoberg/singularity-basic
+```
 
 ---
 [![CBD](http://www.cbd.cmu.edu/wp-content/uploads/2017/07/wordpress-default.png)](http://www.cbd.cmu.edu)
