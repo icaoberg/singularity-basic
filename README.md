@@ -32,6 +32,10 @@ These are the packages
 * vim
 * zsh
 
+## Pull image from Singularity Hub
+
+[![asciicast](https://asciinema.org/a/224102.svg)](https://asciinema.org/a/224102)
+
 ---
 [![CBD](http://www.cbd.cmu.edu/wp-content/uploads/2017/07/wordpress-default.png)](http://www.cbd.cmu.edu)
 
