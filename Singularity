@@ -44,3 +44,29 @@ IncludeCmd: yes
     if [ ! -d /containers ]; then mkdir /containers; fi
     if [ ! -d /share ]; then mkdir /share; fi
     if [ ! -d /scratch ]; then mkdir /scratch; fi
+
+################### TOILET ###################
+%appenv toilet
+    BEST_APP=toilet
+    export BEST_APP
+
+%apphelp toilet
+    Fore more information about pdftex please visit
+ 
+    * http://caca.zoy.org/wiki/toilet
+
+%apprun toilet
+    toilet "$@"
+    
+################### VIM ###################
+%appenv vim
+    BEST_APP=vim
+    export BEST_APP
+
+%apphelp vim
+    Fore more information about pdftex please visit
+ 
+    * https://www.vim.org/
+
+%apprun vim
+    vim "$@"
