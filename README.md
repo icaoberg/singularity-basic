@@ -1,5 +1,7 @@
 # singularity-basic
+[![https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg](https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg)](https://singularity-hub.org/collections/2237)
 ![Release](https://img.shields.io/badge/release-prealpha-red.svg)
+[![Build Status](https://travis-ci.org/icaoberg/singularity-basic.svg?branch=master)](https://travis-ci.org/icaoberg/singularity-basic)
 [![GitHub issues](https://img.shields.io/github/issues/icaoberg/singularity-basic.svg)](https://github.com/icaoberg/singularity-basic/issues)
 [![GitHub forks](https://img.shields.io/github/forks/icaoberg/singularity-basic.svg)](https://github.com/icaoberg/singularity-basic/network)
 [![GitHub stars](https://img.shields.io/github/stars/icaoberg/singularity-basic.svg)](https://github.com/icaoberg/singularity-basic/stargazers)
@@ -14,13 +16,44 @@ The image has been tested on
 2.6.0-dist
 ```
 
+<<<<<<< HEAD
 ## Disclaimer
 
 [![Wold you buy me some coffee?](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/icaoberg)
 
 I am nothing but a humble programmer creating the container for this wonderful app.
+=======
+## Installed packages
+These are the packages
+
+* cowsay
+* Figlet
+* fswatch
+* git
+* graphviz
+* htop
+* libtiff5
+* pandoc
+* toilet
+* tmux
+* vim
+* zsh
+
+## Pull image from Singularity Hub
+
+```
+singularity pull shub://icaoberg/singularity-basic
+singularity pull --name customname.img shub://icaoberg/singularity-basic
+singularity pull --commit shub://icaoberg/singularity-basic
+singularity pull --hash shub://icaoberg/singularity-basic
+```
+>>>>>>> ad416815bc1966e6290c09092704186589abb0e3
 
 ---
 [![CBD](http://www.cbd.cmu.edu/wp-content/uploads/2017/07/wordpress-default.png)](http://www.cbd.cmu.edu)
 
+<<<<<<< HEAD
 Copyleft © 2019 [icaoberg](http://www.andrew.cmu.edu/~icaoberg) at the [Computational Biology Department](http://www.cbd.cmu.edu) in [Carnegie Mellon University](http://www.cmu.edu)
+=======
+Copyleft © 2018-2019 [icaoberg](http://www.andrew.cmu.edu/~icaoberg) at the [Computational Biology Department](http://www.cbd.cmu.edu) in [Carnegie Mellon University](http://www.cmu.edu)
+>>>>>>> ad416815bc1966e6290c09092704186589abb0e3

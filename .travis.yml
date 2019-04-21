@@ -9,12 +9,18 @@ env:
   - VERSION=2.6.0
 
 before_install:
-- wget https://github.com/singularityware/singularity/releases/download/$VERSION/singularity-$VERSION.tar.gz
-- tar xvf singularity-$VERSION.tar.gz
-- cd singularity-$VERSION
-- ./configure --prefix=/usr/local
-- make
-- sudo make install
+ - sudo apt-get update
+ - sudo apt-get install -y libarchive-dev
+ - sudo apt-get install -y squashfs-tools
+ - wget https://github.com/singularityware/singularity/releases/download/$VERSION/singularity-$VERSION.tar.gz
+ - tar xvf singularity-$VERSION.tar.gz
+ - cd singularity-$VERSION
+ - ./configure --prefix=/usr/local
+ - make
+ - sudo make install
+ - cd ..
 
 script:
   - bash ./script.sh
+  - du -h singularity-ubuntu16.04.simg
+  - singularity exec singularity-ubuntu16.04.simg echo SUCCESS
