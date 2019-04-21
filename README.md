@@ -12,7 +12,7 @@ This is the Singularity definition of my personal container that I use while sup
 The image has been tested on
 
 ```
-➜  ✗ singularity --version
+➜  singularity --version
 2.6.0-dist
 ```
 
@@ -45,7 +45,7 @@ singularity pull --hash shub://icaoberg/singularity-basic
 
 [![Wold you buy me some coffee?](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/icaoberg)
 
-I am nothing but a humble programmer creating the container for this wonderful app.
+I am nothing but a humble programmer creating and sharing this container.
 
 ---
 [![CBD](http://www.cbd.cmu.edu/wp-content/uploads/2017/07/wordpress-default.png)](http://www.cbd.cmu.edu)
