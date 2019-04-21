@@ -16,13 +16,6 @@ The image has been tested on
 2.6.0-dist
 ```
 
-<<<<<<< HEAD
-## Disclaimer
-
-[![Wold you buy me some coffee?](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/icaoberg)
-
-I am nothing but a humble programmer creating the container for this wonderful app.
-=======
 ## Installed packages
 These are the packages
 
