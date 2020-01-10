@@ -19,18 +19,21 @@ The image has been tested on
 ## Installed packages
 These are the packages
 
-* cowsay
-* Figlet
-* fswatch
-* git
-* graphviz
-* htop
-* libtiff5
-* pandoc
-* toilet
-* tmux
-* vim
-* zsh
+* [cowsay](https://en.wikipedia.org/wiki/Cowsay)
+* [Figlet](http://www.figlet.org/)
+* [fswatch](https://github.com/emcrisostomo/fswatch)
+* [git](https://git-scm.com/)
+* [graphviz](https://www.graphviz.org/)
+* [htop](http://hisham.hm/htop/)
+* [libtiff5](https://packages.debian.org/jessie/libtiff5)
+* [pandoc](https://pandoc.org/)
+* [TaskWarrior](https://taskwarrior.org/)
+* [TimeWarrior](https://timewarrior.net/)
+* [toilet](http://caca.zoy.org/wiki/toilet)
+* [todo.txt](http://todotxt.org/)
+* [tmux](https://github.com/tmux/tmux)
+* [vim](https://www.vim.org/)
+* [zsh](https://www.zsh.org/)
 
 ## Pull image from Singularity Hub
 

@@ -1,5 +1,5 @@
 Bootstrap: docker
-From: ubuntu:16.04
+From: debian:latest
 
 IncludeCmd: yes
 
@@ -25,18 +25,40 @@ IncludeCmd: yes
       pandoc && \
       libtiff5 && \
       graphviz
+
+    # Install fswatch
     wget https://github.com/emcrisostomo/fswatch/releases/download/1.9.3/fswatch-1.9.3.tar.gz && \
       tar -zxvf fswatch-1.9.3.tar.gz && \
       cd fswatch-1.9.3/ && \
       ./configure && make && make install && ldconfig && cd .. && \
       rm -fv fswatch-1.9.3.tar.gz && \
       rm -rfv fswatch-1.9.3
-    wget https://taskwarrior.org/download/task-2.5.1.tar.gz && \
+
+    # Install TaskWarrior
+    wget -nc https://taskwarrior.org/download/task-2.5.1.tar.gz && \
       tar -xzvf task-2.5.1.tar.gz && \
       cd task-2.5.1 && \
       cmake -DCMAKE_BUILD_TYPE=release . && \
       make && make install && cd .. && \
       rm -fv task-2.5.1.tar.gz && rm -rfv task-2.5.1
+
+    # Install TimeWarrior
+    wget -nc  https://taskwarrior.org/download/timew-1.1.1.tar.gz && \
+      tar xzf timew-1.1.1.tar.gz && \
+      rm -fv timew-1.1.1.tar.gz && \
+      cd timew-1.1.1 && \
+      cmake -DCMAKE_BUILD_TYPE=release . && \
+      make && \
+      make install && \
+      cd .. && \
+      rm -rfv timew-1.1.1 
+
+    # Install todo.txt
+    wget https://github.com/todotxt/todo.txt-cli/archive/master.zip && \
+      unzip master.zip && \
+      cd master && \
+      make && make install && \
+      cd .. && rm -rfv master
 
     # Make folders for CBD HPC cluster
     if [ ! -d /images ]; then mkdir /images; fi
